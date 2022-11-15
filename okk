@@ -6,15 +6,15 @@ int main ()
 	scanf("%f %f %f", &a,&b,&c);
 	
 	if(a>b and a>c){
-			printf ("a");
+			printf ("Heroes Win");
 	}else
 	{
 		if(b>a and b>c){
-			printf ("b");
+			printf ("Villains Win");
 		}else
 		{
 			if(c>a and c>b){
-				printf ("c");
+				printf ("Who Won?");
 			}
 		}
 	}
